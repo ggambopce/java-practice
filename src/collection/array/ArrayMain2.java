@@ -25,7 +25,12 @@ public class ArrayMain2 {
         addAtIndex(arr, index, value);
         System.out.println(Arrays.toString(arr));
 
+        //마지막 위치에 추가
+        System.out.println("배열의 마지막 위치에 5 추가 O(1)");
+        addLast(arr, 5);
+        System.out.println(Arrays.toString(arr));
     }
+
 
     private static void addFirst(int[] arr, int newValue) {
         for (int i = arr.length-1; i > 0; i--) {
@@ -40,4 +45,9 @@ public class ArrayMain2 {
         }
         arr[index] = newValue;
     }
+
+    private static void addLast(int[] arr, int newValue) {
+        arr[arr.length-1] = newValue;
+    }
+
 }
