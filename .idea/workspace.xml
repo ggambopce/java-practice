@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="782092de-bc5e-474e-9178-a05484b712ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV1Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/array/MyArrayListV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,7 @@
     "Application.ArrayMain1.executor": "Run",
     "Application.ArrayMain2.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MyArrayListV1Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -54,7 +56,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayMain2">
+  <component name="RunManager" selected="Application.MyArrayListV1Main">
     <configuration name="ArrayMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.array.ArrayMain1" />
       <module name="java-practice" />
@@ -81,8 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyArrayListV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.array.MyArrayListV1Main" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyArrayListV1Main" />
         <item itemvalue="Application.ArrayMain2" />
         <item itemvalue="Application.ArrayMain1" />
       </list>
@@ -98,7 +114,7 @@
       <updated>1738891960628</updated>
       <workItem from="1738891962542" duration="303000" />
       <workItem from="1738892574429" duration="13000" />
-      <workItem from="1738892669677" duration="8420000" />
+      <workItem from="1738892669677" duration="9100000" />
     </task>
     <servers />
   </component>
