@@ -21,7 +21,7 @@ public class MyArrayListV3 {
         return size;
     }
 
-    // 리스트에 데이터 뒤에 추가
+    // 리스트 마지막에 데이터 추가
     public void add(Object e) {
         if (size == elementData.length) {
             grow();
@@ -30,13 +30,13 @@ public class MyArrayListV3 {
         size++;
     }
     // 코드 추가
-    // 데이터 처음, 중간 추가
+    // 원하는 위치에 데이터 추가
     public  void add(int index, Object e) {
         if(size == elementData.length) {
             grow();
         }
         shiftRightFrom(index);
-        elementData[size] = e;
+        elementData[index] = e;
         size++;
     }
 
@@ -79,7 +79,7 @@ public class MyArrayListV3 {
     // 코드 추가
     // 요소의 index부터 마지막까지 왼쪽으로 밀기
     private void shiftLeftFrom(int index) {
-        for (int i = index; i < size ; i++) {
+        for (int i = index; i < size - 1; i++) {
             elementData[i] = elementData[i + 1];
         }
     }
