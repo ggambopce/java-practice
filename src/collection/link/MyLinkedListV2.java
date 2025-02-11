@@ -1,6 +1,6 @@
 package collection.link;
 
-public class MyLinkedListV1 {
+public class MyLinkedListV2 {
 
     private Node first;
     private int size = 0;
@@ -24,11 +24,9 @@ public class MyLinkedListV1 {
         return x;
     }
 
-    public Object set(int index, Object element) {
-        Node x = getNode(index);
-        Object oldValue = x.item;
-        x.item = element;
-        return oldValue;
+    // 추가코드
+    public void add(int index, Object e) {
+
     }
 
     public Object get(int index) {
