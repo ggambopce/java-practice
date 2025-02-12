@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="782092de-bc5e-474e-9178-a05484b712ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLInkedListV3Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     "Application.MyArrayListV2Main.executor": "Run",
     "Application.MyArrayListV3Main.executor": "Run",
     "Application.MyArrayListV4Main.executor": "Run",
+    "Application.MyLInkedListV3Main.executor": "Run",
     "Application.MyLinkedListV1Main.executor": "Run",
     "Application.MyLinkedListV2Main.executor": "Run",
     "Application.NodeMain.executor": "Run",
@@ -69,7 +70,20 @@
       <recent name="collection.array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedListV2Main">
+  <component name="RunManager" selected="Application.MyLInkedListV3Main">
+    <configuration name="MyLInkedListV3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.link.MyLInkedListV3Main" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyLinkedListV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.link.MyLinkedListV1Main" />
       <module name="java-practice" />
@@ -109,19 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.link.NodeMain2" />
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.link.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NodeMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.link.NodeMain3" />
       <module name="java-practice" />
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLInkedListV3Main" />
         <item itemvalue="Application.MyLinkedListV2Main" />
         <item itemvalue="Application.MyLinkedListV1Main" />
         <item itemvalue="Application.NodeMain3" />
         <item itemvalue="Application.NodeMain" />
-        <item itemvalue="Application.NodeMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +157,7 @@
       <workItem from="1738891962542" duration="303000" />
       <workItem from="1738892574429" duration="13000" />
       <workItem from="1738892669677" duration="14275000" />
-      <workItem from="1739172730025" duration="9554000" />
+      <workItem from="1739172730025" duration="9770000" />
     </task>
     <servers />
   </component>
